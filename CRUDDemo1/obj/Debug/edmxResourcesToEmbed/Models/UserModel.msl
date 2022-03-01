@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PallaviModelStoreContainer" CdmEntityContainer="PallaviEntities1">
+    <EntitySetMapping Name="UserRegistrations">
+      <EntityTypeMapping TypeName="PallaviModel.UserRegistration">
+        <MappingFragment StoreEntitySet="UserRegistration">
+          <ScalarProperty Name="Userid" ColumnName="Userid" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
